@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Encryption website</title>
+</head>
+<body>
+    <h1 class="heading">My Encryption Website</h1>
+    <div class="main">
+        <div class="container">
+            <div class="plain box">
+                <h3>Plain Text</h3>
+                <textarea rows="10" cols="63" name="comment" form="usrform" id="myTextArea"></textarea>
+            </div>
+            <div class="cipher box">
+                <h3>Cipher Text</h3>
+                <textarea rows="10" cols="63" name="comment" form="usrform" id="cipherTextArea"></textarea>
+            </div>
+        </div>
+        <div class="butDiv">
+            <button id="but1" class="but">Encrypt</button>
+            <button id="clr" class="but">Clear All</button>
+            <button id="but2" class="but">Decrypt</button>
+        </div>
+    </div>
+    <script src="encrypt.js"></script>
+</body>
+</html>

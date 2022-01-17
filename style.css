@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(192, 192, 192); */
+}
+body{
+    background-image: radial-gradient(closest-side at 50% 50%,rgba(247, 207, 121, 0.562),rgba(243, 214, 150, 0.397), rgba(243, 219, 166, 0.26));
+}
+.heading{
+    margin: 100px 0 80px 0 ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(62, 109, 196);
+}
+
+.container{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.box{
+    height: 200px;
+    width: 500px;
+    margin: auto 30px;
+    padding: 5px;
+    background-color: rgb(165, 197, 223);
+}
+textarea{
+    padding: 5px 0 0 0 ;
+    font-weight: 800;
+    color: rgb(85, 43, 13);
+    resize: none;
+    border: none;
+    border-top: 3px solid rgb(85, 43, 13);
+    outline: none;
+    background-color: rgb(165, 197, 223);
+}
+h3{
+    background-color: rgb(165, 197, 223);
+
+}
+.plain{    border: 2px solid navy;
+}
+.cipher{    border: 2px solid navy;
+}
+.butDiv{
+    margin-top: 50px;
+    align-items: center;
+    /* max-width: 800px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.but{
+    /* margin: 30px 0 0 235px; */
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: steelblue;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    
+}
+.but:hover{
+    /* background-color: rgb(12, 34, 53); */
+    background-color: yellow;
+    border: 1px solid brown;
+    color: rgb(255, 60, 0);
+    cursor: pointer;
+
+}
